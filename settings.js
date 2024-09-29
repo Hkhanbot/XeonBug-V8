@@ -71,10 +71,10 @@ global.mess = {
 
 global.thumb = fs.readFileSync('./GlobalMedia/thumb.jpg')
 
-let file = require.resolve(__filename)
+let file = require.resolve(__Lady boss-v8)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
-    console.log(chalk.redBright(`Update'${__filename}'`))
-    delete require.cache[file]
+    console.log(chalk.redBright(`Update'${__lady boss-v8}'`))
+    dee require.cache[lady boss-v8]
     require(file)
 })
